@@ -20,6 +20,7 @@ pub fn generate_nametag_text(name: String) -> Option<String> {
     }
 }
 
+
 #[cfg(test)]
 mod tests {
     use super::*;
