@@ -5,6 +5,7 @@
 
 // I AM NOT DONE
 
+
 pub fn factorial(num: u64) -> u64 {
     // Complete this function to return the factorial of num
     // Do not use:
@@ -15,6 +16,7 @@ pub fn factorial(num: u64) -> u64 {
     // For an extra challenge, don't use:
     // - recursion
     // Execute `rustlings hint iterators4` for hints.
+    (1..=num).fold(1u64, |acc: u64, n: u64| acc * n) 
 }
 
 #[cfg(test)]
