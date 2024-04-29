@@ -16,3 +16,4 @@ public/
 
 # Local Netlify folder
 .netlify
+exercises/22_clippy/Cargo.lock
